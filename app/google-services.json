@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443872027255",
+    "firebase_url": "https://carritocuadro.firebaseio.com",
+    "project_id": "carritocuadro",
+    "storage_bucket": "carritocuadro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443872027255:android:fa94d95e0f2fca5a",
+        "android_client_info": {
+          "package_name": "com.jerp.carritocuadro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443872027255-3u2t064bqpuukka56rrbn60qbkrm5iuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jerp.carritocuadro",
+            "certificate_hash": "3f62352d37cfb6cc37c68d5e30d122bd51653e52"
+          }
+        },
+        {
+          "client_id": "443872027255-qm578od654ckbfnog5nvnvvfk5b63sgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWiEwV2cEa1sEbUtK_6Ky4pJVfWndE7G0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443872027255-qm578od654ckbfnog5nvnvvfk5b63sgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

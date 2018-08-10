@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#E1F5FE">
+
+    <TextView
+
+        android:id="@+id/txttitulo_cuadro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="11dp"
+        android:text="TITULO CUADRO:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/txtartista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txttitulo_cuadro"
+        android:layout_marginTop="37dp"
+        android:text="ARTISTA:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txttitulo_cuadro"
+        android:layout_marginTop="64dp"
+        android:text="DESCRIPCION:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txttitulo_cuadro"
+        android:layout_marginTop="92dp"
+        android:text="AÑO:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/txtgenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txttitulo_cuadro"
+        android:layout_marginTop="121dp"
+        android:text="GENERO:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txttitulo_cuadro"
+        android:layout_marginTop="147dp"
+        android:text="PRECIO:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnagregar"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtano"
+        android:layout_marginEnd="19dp"
+        android:text="Agregar"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
